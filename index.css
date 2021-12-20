@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 19% auto;
+    border-radius: 4%;
+    overflow: hidden;
+    box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+}
+.container figure{
+    width: 100%;
+    margin: 0;
+}
+.container figure img{
+    width: 100%;
+}
+.sumary{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sumary p{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(0,0,0,0.5);
+}
+.sumary-plan
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 5% auto
+}
+.sumary-plan img{
+    width: 15%;
+    height: 15%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.annual-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.annual-plan h2{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: medium;
+}
+.annual-plan p{
+    margin: 0 auto;
+    color: rgba(0,0,0,0.5);
+}
+.sumary-plan a{
+    margin-left: 15%;
+    color: hsl(245, 75%, 52%);
+    font-size: small;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-payment{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.btn-pay{
+    width: 90%;
+    height: 3.5em;
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    transition: background 0.5s ease;
+}
+.btn-pay:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+.btn-cancel{
+    border-radius: 10%;
+    border-style: none;
+    font-weight: 900;
+    color: rgba(0,0,0,0.5);
+    height: 3.5em;
+    cursor: pointer;
+}
